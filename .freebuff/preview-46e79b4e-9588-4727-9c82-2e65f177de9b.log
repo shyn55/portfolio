@@ -1,0 +1,58 @@
+
+> shayan-portfolio@0.1.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+- Environments: .env
+✓ Ready in 890ms
+✓ Running next.config.ts took 76ms
+
+ GET / 200 in 1581ms (next.js: 684ms, application-code: 896ms)
+ GET /images/Hero2.jpg 404 in 202ms (next.js: 79ms, application-code: 123ms)
+ GET /api/projects 200 in 452ms (next.js: 217ms, application-code: 235ms)
+ GET /api/projects 200 in 4.1s (next.js: 15ms, application-code: 4.1s)
+ GET / 200 in 205ms (next.js: 16ms, application-code: 189ms)
+ GET /images/Hero2.jpg 404 in 386ms (next.js: 60ms, application-code: 325ms)
+ GET /api/projects 200 in 75ms (next.js: 47ms, application-code: 29ms)
+ GET /api/projects 200 in 306ms (next.js: 8ms, application-code: 298ms)
+ GET /images/Hero2.jpg 404 in 92ms (next.js: 20ms, application-code: 72ms)
+✓ Compiled in 435ms
+ GET /images/Hero2.p 404 in 186ms (next.js: 37ms, application-code: 149ms)
+ GET / 200 in 151ms (next.js: 42ms, application-code: 109ms)
+✓ Compiled in 537ms
+ GET / 200 in 141ms (next.js: 32ms, application-code: 109ms)
+ GET /admin 307 in 212ms (next.js: 79ms, application-code: 134ms)
+ GET /admin/login 200 in 289ms (next.js: 60ms, application-code: 229ms)
+ POST /api/admin/login 401 in 384ms (next.js: 67ms, application-code: 317ms)
+ POST /api/admin/login 200 in 437ms (next.js: 8ms, application-code: 429ms)
+ GET /admin/dashboard 200 in 2.5s (next.js: 52ms, application-code: 2.5s)
+ GET /admin/dashboard 200 in 2.5s (next.js: 11ms, application-code: 2.4s)
+ GET /admin/projects/cmtq14eqc0000ho9gahxjvcdc/edit 200 in 2.8s (next.js: 2.3s, application-code: 541ms)
+ GET /admin/dashboard 200 in 985ms (next.js: 9ms, application-code: 976ms)
+ GET /admin/settings 200 in 93ms (next.js: 43ms, application-code: 50ms)
+ GET /admin/dashboard 200 in 500ms (next.js: 10ms, application-code: 490ms)
+ GET /admin/projects/cmtq14eqc0000ho9gahxjvcdc/edit 200 in 734ms (next.js: 20ms, application-code: 715ms)
+ GET /admin/dashboard 200 in 1032ms (next.js: 10ms, application-code: 1022ms)
+ GET /admin/projects 200 in 785ms (next.js: 502ms, application-code: 283ms)
+ GET /admin/projects/cmtq14eqc0000ho9gahxjvcdc/edit 200 in 310ms (next.js: 33ms, application-code: 276ms)
+ PATCH /api/admin/projects/cmtq14eqc0000ho9gahxjvcdc 200 in 2.7s (next.js: 1806ms, application-code: 932ms)
+ GET /admin/projects 200 in 281ms (next.js: 19ms, application-code: 263ms)
+ GET /admin/projects 200 in 538ms (next.js: 69ms, application-code: 469ms)
+ GET / 200 in 259ms (next.js: 56ms, application-code: 202ms)
+ GET /api/projects 200 in 47ms (next.js: 11ms, application-code: 36ms)
+ GET /api/projects 200 in 460ms (next.js: 5ms, application-code: 454ms)
+ GET /admin/projects/cmtq14eqc0000ho9gahxjvcdc/edit 200 in 561ms (next.js: 22ms, application-code: 538ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+ PATCH /api/admin/projects/cmtq14eqc0000ho9gahxjvcdc 200 in 3.9s (next.js: 19ms, application-code: 3.9s)
+ GET /admin/projects 200 in 610ms (next.js: 20ms, application-code: 590ms)
+ GET /admin/projects 200 in 2.3s (next.js: 6ms, application-code: 2.3s)
+ GET / 200 in 163ms (next.js: 10ms, application-code: 153ms)
+ GET /api/projects 200 in 731ms (next.js: 25ms, application-code: 706ms)
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }
+prisma:error Error in PostgreSQL connection: Error { kind: Db, cause: Some(DbError { severity: "FATAL", parsed_severity: Some(Fatal), code: SqlState(E57P01), message: "terminating connection due to administrator command", detail: None, hint: None, position: None, where_: None, schema: None, table: None, column: None, datatype: None, constraint: None, file: Some("postgres.c"), line: Some(3357), routine: Some("ProcessInterrupts") }) }

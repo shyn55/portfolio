@@ -1,0 +1,22 @@
+
+> shayan-portfolio@0.1.0 dev
+> next dev -p 3000
+
+▲ Next.js 16.3.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+- Environments: .env
+✓ Ready in 840ms
+✓ Running next.config.ts took 64ms
+
+ GET / 200 in 918ms (next.js: 325ms, application-code: 593ms)
+ GET / 200 in 280ms (next.js: 16ms, application-code: 263ms)
+ GET /api/projects 200 in 1180ms (next.js: 184ms, application-code: 997ms)
+ GET /api/projects 200 in 1103ms (next.js: 21ms, application-code: 1081ms)
+ GET / 200 in 141ms (next.js: 6ms, application-code: 136ms)
+ GET /api/projects 200 in 28ms (next.js: 9ms, application-code: 19ms)
+ GET /api/projects 200 in 8.0s (next.js: 8ms, application-code: 8.0s)
+ GET / 200 in 295ms (next.js: 73ms, application-code: 222ms)
+ GET /api/projects 200 in 52ms (next.js: 9ms, application-code: 43ms)
+ GET /api/projects 200 in 158ms (next.js: 12ms, application-code: 145ms)
+[?25h

@@ -1,0 +1,71 @@
+
+> shayan-portfolio@0.1.0 build
+> next build
+
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env
+✓ Running next.config.ts took 85ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 17.3s
+  Running TypeScript ...
+  Finished TypeScript in 5.6s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/16) ...
+  Generating static pages using 3 workers (4/16) 
+prisma:error 
+Invalid `prisma.project.count()` invocation:
+
+
+Can't reach database server at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`.
+prisma:error 
+Invalid `prisma.project.count()` invocation:
+
+
+Can't reach database server at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`.
+prisma:error 
+Invalid `prisma.project.count()` invocation:
+
+
+Can't reach database server at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`.
+prisma:error 
+Invalid `prisma.project.findMany()` invocation:
+
+
+Can't reach database server at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`
+
+Please make sure your database server is running at `ep-winter-smoke-ay393uu1.c-5.us-east-2.aws.neon.tech:5432`.
+  Generating static pages using 3 workers (8/16) 
+  Generating static pages using 3 workers (12/16) 
+✓ Generating static pages using 3 workers (16/16) in 5.7s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /admin
+├ ƒ /admin/dashboard
+├ ƒ /admin/login
+├ ƒ /admin/projects
+├ ƒ /admin/projects/[id]/edit
+├ ƒ /admin/projects/new
+├ ƒ /admin/settings
+├ ƒ /api/admin/login
+├ ƒ /api/admin/logout
+├ ƒ /api/admin/projects
+├ ƒ /api/admin/projects/[id]
+├ ƒ /api/admin/upload
+├ ƒ /api/projects
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

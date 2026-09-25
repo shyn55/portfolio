@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cmtq14eqc0000ho9gahxjvcdc",
+    "title": "CourseSite",
+    "slug": "coursesite",
+    "description": "An educational platform with a course catalog, student progress tracking, instructor dashboards and secure payments.",
+    "image": "/images/projects/courseSite.png",
+    "githubUrl": "https://github.com/shyn55/courseSite",
+    "liveUrl": "https://shayancoding.ir/",
+    "technologies": [
+      "Next.js",
+      "MongoDB",
+      "React",
+      "GitHub"
+    ],
+    "category": "Web Apps",
+    "featured": true,
+    "order": 1,
+    "published": true,
+    "createdAt": "2026-09-06T16:31:43.764Z",
+    "updatedAt": "2026-09-06T17:10:17.359Z"
+  },
+  {
+    "id": "cmtq14fae0001ho9ghp73ypoz",
+    "title": "Empire Gym",
+    "slug": "empire-gym",
+    "description": "A gym management app handling memberships, trainer schedules, attendance and monthly billing across multiple branches.",
+    "image": "/images/projects/project-gym.png",
+    "githubUrl": "https://github.com/shayan/empire-gym",
+    "liveUrl": "https://empiregym-demo.vercel.app",
+    "technologies": [
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "category": "Full Stack",
+    "featured": true,
+    "order": 2,
+    "published": true,
+    "createdAt": "2026-09-06T16:31:44.487Z",
+    "updatedAt": "2026-09-08T15:55:18.921Z"
+  },
+  {
+    "id": "cmtq14fnx0002ho9gjptjsobg",
+    "title": "Todo PWA",
+    "slug": "todo-pwa",
+    "description": "A fast, offline-first progressive web app for task management with drag-and-drop lists, reminders and local data sync.",
+    "image": "/images/projects/project-todo.png",
+    "githubUrl": "https://github.com/shayan/todo-pwa",
+    "liveUrl": "https://todopwa-demo.vercel.app",
+    "technologies": [
+      "React",
+      "IndexedDB",
+      "Workbox"
+    ],
+    "category": "Frontend",
+    "featured": false,
+    "order": 3,
+    "published": true,
+    "createdAt": "2026-09-06T16:31:44.974Z",
+    "updatedAt": "2026-09-08T15:54:05.721Z"
+  },
+  {
+    "id": "cmtq14g4p0003ho9g9jx2v33n",
+    "title": "Developer Dashboard",
+    "slug": "developer-dashboard",
+    "description": "An admin dashboard with real-time analytics, interactive charts and role-based access control for internal teams.",
+    "image": "/images/projects/project-4.png",
+    "githubUrl": "https://github.com/shayan/dev-dashboard",
+    "liveUrl": "https://devdashboard-demo.vercel.app",
+    "technologies": [
+      "Next.js",
+      "Express",
+      "MongoDB"
+    ],
+    "category": "Full Stack",
+    "featured": false,
+    "order": 4,
+    "published": true,
+    "createdAt": "2026-09-06T16:31:45.578Z",
+    "updatedAt": "2026-09-06T16:31:45.578Z"
+  }
+]

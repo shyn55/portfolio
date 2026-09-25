@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
+  /* Neutral, restrained palette */
+  --color-ink: #111827; /* primary dark / accent */
+  --color-ink-dark: #0b1220; /* deeper hover */
+  --color-ink-soft: #334155; /* secondary headings */
+  --color-body: #5b6472; /* paragraph text */
+  --color-faint: #98a1ad; /* small captions */
+  --color-mist: #f5f6f7; /* alternate section background */
+  --color-line: #e6e8eb; /* hairline borders */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  /* keep anchored sections clear of the fixed navbar */
+  scroll-padding-top: 5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white font-sans text-ink antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #111827;
+  color: #ffffff;
+}
+
+/* Slim, quiet scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9cdd3;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a9afb8;
+}
+
+/* Reduced motion: let the browser handle scrolling */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Marquee band */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Typing caret */
+@keyframes caret-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@utility container-site {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 76rem;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 640px) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility animate-marquee {
+  animation: marquee var(--marquee-duration, 36s) linear infinite;
+}
+
+@utility animate-caret {
+  animation: caret-blink 1.05s step-end infinite;
 }
