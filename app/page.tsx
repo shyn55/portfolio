@@ -8,28 +8,22 @@ import Experience from "@/components/Experience";
 import TechMarquee from "@/components/TechMarquee";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <div style={{ fontSize: "50px", padding: "100px" }}>
-      SHAYAN TEST
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Certificate />
+        <Skills />
+        <Portfolio />
+        <Experience />
+        <TechMarquee />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
-// export default function Home() {
-//   return (
-//     <>
-//       <Navbar />
-//       <main>
-//         <Hero />
-//         <About />
-//         <Certificate />
-//         <Skills />
-//         <Portfolio />
-//         <Experience />
-//         <TechMarquee />
-//         <Contact />
-//       </main>
-//       <Footer />
-//     </>
-//   );
-// }
